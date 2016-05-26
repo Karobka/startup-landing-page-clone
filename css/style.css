@@ -23,3 +23,19 @@ div {
 a {
 	text-decoration: none;
 }
+
+/** Main Banner **/
+
+
+/** Second Banner **/
+.secondBanner {
+
+}
+.bannerGroup {
+	display: inline-block;
+}
+
+/** Footer **/
+.standardFooter {
+	text-align: ;
+}
