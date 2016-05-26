@@ -1,0 +1,25 @@
+body {
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
+}
+
+.logo {
+	width: 40px;
+}
+
+/** Main Navigation **/
+.mainNavMenus {
+	text-align: right;
+}
+
+.mainNavMenus li {
+	display: inline-block;
+	margin: 0 0.7em;
+
+}
+
+a {
+	text-decoration: none;
+}
