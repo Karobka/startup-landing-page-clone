@@ -1,3 +1,9 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+html {
+	-webkit-font-smoothing: antialiased;
+}
 body {
 	background-color: LightGray;
 }
@@ -7,11 +13,14 @@ div {
 
 .logo {
 	width: 40px;
+	float: left;
 }
 
 /** Main Navigation **/
 .mainNavMenus {
 	text-align: right;
+	font-size: 16px;
+	float: right;
 }
 
 .mainNavMenus li {
