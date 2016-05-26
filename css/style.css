@@ -25,10 +25,16 @@ a {
 }
 
 /** Main Banner **/
-
+.mainBanner {
+	max-width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
 
 /** Second Banner **/
 .secondBanner {
+	text-align: center;
 
 }
 .bannerGroup {
@@ -36,6 +42,6 @@ a {
 }
 
 /** Footer **/
-.standardFooter {
-	text-align: ;
+footer {
+	text-align: center;
 }
