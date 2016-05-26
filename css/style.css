@@ -26,9 +26,6 @@ a {
 
 /** Main Banner **/
 .mainBanner {
-	max-width: 40em;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
 }
 
@@ -38,10 +35,11 @@ a {
 
 }
 .bannerGroup {
-	display: inline-block;
+	display: inline;
 }
 
 /** Footer **/
 footer {
 	text-align: center;
+	border-top: 1px solid DarkGray;
 }
