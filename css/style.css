@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 * {
 	font-family: "Roboto", sans-serif;
 }
@@ -11,23 +18,29 @@ div {
 	border: 1px solid Chocolate;
 }
 
-.logo {
-	width: 40px;
+.content .logo {
+	height: 4.375em;
 	
+}
+
+.content {
+	max-width: 60em;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /** Main Navigation **/
 .mainNavMenus {
 	text-align: right;
-	font-size: 16px;
 	float: right;
-	
+	padding-top: .5em;
+	padding-right: .60em;
+
 }
 
 .mainNavMenus li {
 	display: inline-block;
 	margin: 0 0.7em;
-
 }
 
 a {
