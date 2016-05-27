@@ -38,6 +38,10 @@ div {
 
 .mainNavBar {
 	padding: .25em 0 .25em 0;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	background-color: #FFFFFF;
 }
 
 .mainNavBar > .content {
@@ -118,8 +122,8 @@ button:hover {
 
 
 
-
 /** Second Banner **/
+
 .bannerGroup li {
 	display: inline-block;
 	margin: 0 4em;
@@ -141,38 +145,61 @@ button:hover {
     font-size: 1.313rem;
 }
 
-/**
-.bannerGroup:before,
-.bannerGroup:after {
-	content: "";
-	display: table;
-}
 
-.bannerGroup:after {
-	clear: both;
-}
-
-.bannerGroup {
-	clear: both;
-	*zoom: 1;
-}
-
-.imageFloater {
-	float: left;
-	margin: 0 1%;
-	width: 10%;
-	text-align: center;
-
-}
-
-
-.bannerGroup {
-	display: inline;
-}
-**/
 
 /** Footer **/
 footer {
 	text-align: center;
-	border-top: 1px solid DarkGray;
+	
+	margin-bottom: 20em;
 }
+
+footer a {
+	padding: 30px 20px;
+}
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.socialIcons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.socialIcons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.socialCopy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+
+.socialCircles {
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+}
+
