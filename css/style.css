@@ -120,13 +120,45 @@ button:hover {
 
 
 /** Second Banner **/
+.bannerGroup li {
+	display: inline-block;
+	margin: 0 4em;
+}
+
 .secondBanner {
+	text-align: center;
+	padding-top: 6em;
+}
+
+/**
+.bannerGroup:before,
+.bannerGroup:after {
+	content: "";
+	display: table;
+}
+
+.bannerGroup:after {
+	clear: both;
+}
+
+.bannerGroup {
+	clear: both;
+	*zoom: 1;
+}
+
+.imageFloater {
+	float: left;
+	margin: 0 1%;
+	width: 10%;
 	text-align: center;
 
 }
+
+
 .bannerGroup {
 	display: inline;
 }
+**/
 
 /** Footer **/
 footer {
