@@ -11,9 +11,7 @@ html {
 html {
 	-webkit-font-smoothing: antialiased;
 }
-body {
-	background-color: LightGray;
-}
+
 div {
 	border: 1px solid Chocolate;
 }
@@ -23,13 +21,28 @@ div {
 	
 }
 
+.logo {
+	margin-top: ;
+}
+
 .content {
 	max-width: 60em;
 	margin-right: auto;
 	margin-left: auto;
+	height: 4em;
+	padding: 0px 15px;
 }
 
 /** Main Navigation **/
+
+.mainNavBar {
+	padding: .25em 0 .25em 0;
+}
+
+.mainNavBar > .content {
+	height: 4.375em;
+}
+
 .mainNavMenus {
 	text-align: right;
 	float: right;
@@ -38,17 +51,31 @@ div {
 
 }
 
+.active {
+	font-weight: 500;
+	color: #4c5058;
+}
+
 .mainNavMenus li {
 	display: inline-block;
 	margin: 0 0.7em;
+	color: #838994;
 }
 
 a {
 	text-decoration: none;
 }
 
+li:hover {
+    cursor: pointer;
+    color: #333333;
+}
 /** Main Banner **/
-.mainBanner {
+.firstBanner {
+	text-align: center;
+}
+
+.firstBanner {
 	text-align: center;
 }
 
