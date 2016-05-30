@@ -1,3 +1,25 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -6,7 +28,6 @@ html {
 }
 
 /** Custom Styles **/
-
 body {
 	font-family: "Roboto", sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -20,7 +41,6 @@ body {
 }
 
 /** Main Navigation **/
-
 nav {
 	background-color: #fff;
 	position: fixed;
@@ -50,7 +70,7 @@ nav .links li {
 	margin-left: 1.561rem;
 }
 
-nav .links li .active {
+nav .links li.active {
 	font-weight: 500;
 	color: #4c5058;
 }
@@ -61,41 +81,6 @@ nav .links li:hover {
     color: #333333;
 }
 
-/** SAMPLE NAVIGATION
-
-.top-navigation {
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    border-bottom: 1px solid #DDD;
-    z-index: 9999;
-}
-.top-navigation > .content {
-    height: 4.375rem;
-}
-.top-navigation .logo {
-    height: 4.375rem;
-}
-.top-navigation .links {
-    float: right;
-    color: #838994;
-    font-size: 1.04rem;
-    margin-top: 1.7rem;
-}
-.top-navigation .links li {
-    display: inline-block;
-    margin-left: 1.563rem;
-}
-.top-navigation .links li.active {
-    color: #4c5058;
-    font-weight: 500;
-}
-.top-navigation .links li:hover {
-    cursor: pointer;
-    color: #333333;
-}
-
-**/
 
 /** Main Banner **/
 .introbanner {
@@ -157,8 +142,8 @@ button:hover {
 
 .secondbanner {
 	text-align: center;
-	padding-top: 6em;
-	padding-bottom: 6em;
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 
 .secondbanner h2 {
@@ -177,18 +162,13 @@ button:hover {
 /** Footer **/
 footer {
 	text-align: center;
-	
 	margin-bottom: 20em;
-}
-
-footer a {
-	padding: 30px 20px;
 }
 
 .social {
     background-color: #fff;
     overflow: auto;
-    padding-bottom: 9.375rem;
+    padding-bottom: rem;
     text-align: center;
 }
 .social hr {
@@ -209,13 +189,13 @@ footer a {
 .socialicons > li:hover {
     cursor: pointer;
 }
-.social .twitter {
+.twitter {
     color: #55acee;
 }
-.social .facebook {
+.facebook {
     color: #4c66a4;
 }
-.social .instagram {
+.instagram {
     color: #3f729b;
 }
 .legal {
@@ -223,8 +203,6 @@ footer a {
     font-weight: 300;
     color: #838994;
 }
-
-
 .socialcircles {
 	border: 1px solid #FFFFFF;
 	border-radius: 50%;
