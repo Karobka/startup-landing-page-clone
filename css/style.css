@@ -5,73 +5,97 @@ html {
   box-sizing: inherit;
 }
 
-* {
+/** Custom Styles **/
+
+body {
 	font-family: "Roboto", sans-serif;
-}
-html {
 	-webkit-font-smoothing: antialiased;
 }
 
-
-.content .logo {
-	height: 4.375em;
-	
-}
-
-.logo {
-	margin-top: ;
-}
-
 .content {
-	max-width: 60em;
-	margin-right: auto;
-	margin-left: auto;
-	height: 4em;
-	padding: 0px 15px;
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+	width: 60%;
 }
-
 
 /** Main Navigation **/
 
 nav {
-	padding: .25em 0 .25em 0;
+	background-color: #fff;
 	position: fixed;
 	width: 100%;
+	border-bottom: 1px solid #DDD;
 	z-index: 9999;
-	background-color: #FFFFFF;
 }
 
 nav > .content {
 	height: 4.375em;
 }
 
-.mainmenus {
-	text-align: right;
-	float: right;
-	padding-top: .5em;
-	padding-right: .60em;
-
+nav .logo {
+	height: 4.375em;
 }
 
-.active {
+nav .links {
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+	text-decoration: none;
+}
+
+nav .links li {
+	display: inline-block;
+	margin-left: 1.561rem;
+}
+
+nav .links li .active {
 	font-weight: 500;
 	color: #4c5058;
 }
 
-.mainmenus li {
-	display: inline-block;
-	margin: 0 0.7em;
-	color: #838994;
-}
 
-a {
-	text-decoration: none;
-}
-
-li:hover {
+nav .links li:hover {
     cursor: pointer;
     color: #333333;
 }
+
+/** SAMPLE NAVIGATION
+
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+.top-navigation > .content {
+    height: 4.375rem;
+}
+.top-navigation .logo {
+    height: 4.375rem;
+}
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+**/
 
 /** Main Banner **/
 .introbanner {
@@ -83,16 +107,21 @@ li:hover {
 	overflow: auto;
 }
 
-.bannerwords h1,
-.bannerwords h3 {
+.introwords h1,
+.introwords h3 {
 	text-align: center;
 	color: #FFFFFF;
 	font-weight: 300;
 }
 
-.bannerwords h1 {
+.introwords h1 {
 	margin-top: 16rem;
 	font-size: 3rem;
+}
+
+.introwords h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
 }
 
 .buttons {
